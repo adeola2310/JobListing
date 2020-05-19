@@ -36,16 +36,18 @@
     padding: .1rem .6rem;
     text-transform: uppercase;
     color: white;
-    font-size: .2rem;
+    border: none;
+    font-size: .5rem;
 }
 
 .new{
     background-color: teal;
     border-radius: 20px;
+    border: none;
     padding: .1rem .6rem;
     text-transform: uppercase;
     color: white;
-    font-size: .2rem;
+    font-size: .5rem;
 }
 
 .name{
