@@ -4,5 +4,8 @@ import JobCard from "../Job-card/Job-card";
 
 
 it('should render the JobCard component',  () =>{
-    expect(shallow(<JobCard/>).length).toEqual(1)
+    // using enzyme shallow
+    // expect(shallow(<JobCard/>).length).toEqual(1)
+
+    expect(shallow(<JobCard/>)).toMatchSnapshot();
 }); 
