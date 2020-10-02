@@ -1,9 +1,10 @@
 import React from 'react';
-import { render } from '@testing-library/react';
-import App from './App';
+import {shallow} from "enzyme";
+import Header from "./components/Header/Header";
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+
+
+
+it('should render the Header component',  () =>{
+  expect(shallow(<Header/>).length).toEqual(1)
 });
